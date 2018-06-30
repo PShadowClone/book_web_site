@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'client' => 'العميل',
+    'driver' => 'السائق',
+    'client_name' => 'اسم العميل',
+    'driver_name' => 'اسم للسائق',
+    'driver_phone' => 'رقم جوال السائق',
+    'client_phone' => 'رقم جوال العميل',
+    'client_email' => 'البريد الالكتروني للعميل',
+    'driver_email' => 'البريد الالكتروني للسائق',
+    'request_info' => 'تفاصيل الطلب',
+    'map' => 'الخريطة',
+    'book_amount' => 'كمية الكتب',
+    'request_identifier' => 'معرف الطلب',
+    'status' => 'حالة الطلب',
+    'book_title' => 'عنوان الكتاب',
+    'requests' => 'الطلبات',
+    'created_at' => 'تاريخ انشاء الطلب',
+    'delivery_time' => 'تاريخ التسليم',
+    'to' => 'الى',
+    'driver_phone_name' => 'اسم السائق / رقم الجوال',
+    'client_phone_name' => 'رقم جوال العميل',
+    'giver_phone_name' => 'اسم المحضر / رقم الجوال',
+    'totalEvaluations' => 'التقييم العام',
+];

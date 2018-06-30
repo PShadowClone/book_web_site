@@ -1,0 +1,9 @@
+<option value="1">لتأكيد</option>
+<option value="2">مؤكد</option>
+<option value="3">تم الشراء</option>
+<option value="4">جاري التحضير</option>
+<option value="5">تم التحضير</option>
+<option value="6">جاري التوصيل</option>
+<option value="7">تم التسليم</option>
+<option value="8">ملغي</option>
+<option value="9">مرفوض</option>

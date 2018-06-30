@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body, header, footer, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif;
+
+}
+
+/**
+
+animations
+
+ */
+
+.navbar-header {
+    max-width: 11%;
+}
+
+.navbar-header > a {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    float: right;
+}
+
+.navbar-collapse.collapse {
+    float: left;
+    width: 58%;
+    margin-left: 30% !important;
+}
+
+.navbar-header > a.navbar-brand > img {
+    margin-top: -7px;
+}
+
+header.navbar .navbar-nav > li > a.dropdown-toggle:after {
+    content: "\f0d7";
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-right: 8px;
+    float: left;
+    line-height: 1.6;
+}
+
+li > a > i.fa-key {
+    margin-left: 5px;
+}
+
+.navbar-search > ul.dropdown-menu {
+    direction: rtl;
+}
+
+.dropdown.navbar-cart > ul.dropdown-menu > li > .row > div.col-sm-9 > h4, p {
+    text-align: right;
+}
+
+.dropdown.navbar-cart > ul.dropdown-menu > li > .row > div.col-sm-9 > a.remove {
+    position: inherit;
+    float: left;
+}
+
+.navbar-cart > ul.dropdown-menu > li > .row > .col-sm-3 > img {
+    padding-left: 5px;
+}
+
+.categories-header, .libraries-header, .books-header {
+    text-align: right;
+}
+
+.libraries-header > li {
+    float: right;
+}
+
+.footer-widget-contacts > ul {
+    text-align: right;
+}
+
+.footer-widget-contacts > ul.list-unstyled > li > i {
+    margin-left: 5px;
+}
+
+.navbar-fixed-top.navbar-small > div.container > div > a > img {
+    /*width: 60%;*/
+    -webkit-animation: example 500ms;
+    width: 60%;
+}
+
+ol.breadcrumb {
+    text-align: left !important;
+}
+
+.releated-products > h2 {
+    text-align: right;
+}
+
+/**
+
+logo size animation
+
+ */
+@-webkit-keyframes example {
+    0% {
+        width: 90%;
+    }
+    100% {
+        width: 60%;
+    }
+
+}
+
+/**
+
+
+reversing size animation
+
+ */
+@-webkit-keyframes reverseResizing {
+    0% {
+        width: 60%;
+    }
+    100% {
+        width: 10%;
+    }
+
+}
+
+/*
+
+
+FOOTER STYLES
+
+
+*/
+footer {
+    text-align: right;
+}
+
+.breadcrumb-wrapper > div.container > div.row > div.col-xs-6:last-child {
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.modal-header > button.close {
+    float: left;
+    margin-left: -13px;
+}
+
+.book-content {
+    direction: rtl;
+}
+
+header.navbar .megamenu .dropdown-menu {
+    left: auto;
+    right: auto;
+}
+
+.dropdown.megamenu > ul {
+    height: 350px;
+    overflow-y: auto;
+    text-align: right;
+    width: auto
+}
